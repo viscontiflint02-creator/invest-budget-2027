@@ -758,7 +758,6 @@ pages[2]=()=>{const holder=document.createElement('div');holder.innerHTML=regist
  }
  section.querySelector('h1').textContent='План, договоры и карточки: один период';
  section.querySelector('.subtitle').textContent='Сравнение 2021–2026. Годы сохраняются между вкладками. Договоры включают оборудование и работы, карточки — отдельные объекты.';
- const strip=document.createElement('div');strip.className='reconciliation-strip';strip.innerHTML=reconciliationStrip();section.querySelector('.controls').after(strip);
  section.querySelector('.source').textContent='2020 исключён из этого сравнения: 42 объекта на 28,30 млн ₽; бюджетного файла за 2020 нет. Эти машины сохранены в дэшборде расходов. ЗУЭС карточек — из детальной выгрузки; договоры такого поля не содержат.';
  return section.outerHTML;
 };
